@@ -8,7 +8,7 @@ class Student
     int age, roll;
     string grade;
 };
-int main(){
+    int main(){
 
     Student S1;
     S1.name = "Krishna";

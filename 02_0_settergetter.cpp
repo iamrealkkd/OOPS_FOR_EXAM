@@ -5,11 +5,13 @@ class Student
     string name;
     int age, roll;
     string grade;
+
     public://Getter and Setter
     void setname(string n){//Function name can be any
             name = n;          
     }
     void setage(int a){
+        if(a > 0)
             age = a;          
     }
     void setroll(int r){
