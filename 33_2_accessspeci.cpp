@@ -16,4 +16,5 @@ public:
 int main() {
     Child c;
     c.show();
+    return 0;
 }
