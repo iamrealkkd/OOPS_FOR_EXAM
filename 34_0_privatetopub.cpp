@@ -3,7 +3,7 @@ using namespace std;
 
 class Student{
 private:
-    int age = 20;
+    int age;
 public:
     void setAge(int a){
         age = a;
