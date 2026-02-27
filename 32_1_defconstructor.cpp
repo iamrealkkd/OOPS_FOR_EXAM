@@ -14,8 +14,8 @@ public:
 
 int main() {
     Car c1;   // Constructor called automatically
-
-    cout << "Car Brand: " << c1.brand << endl;
+    cout << "Car Brand: " <<  endl;
+    cout << c1.brand << endl;
 
     return 0;
 }
