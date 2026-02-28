@@ -32,3 +32,9 @@ int main() {
     s2.show();
     return 0;
 }
+// 3. Copy Constructor
+// Purpose: It creates a new object by copying data from an existing object.
+
+// Parameters: It has parameters of the same class type (reference).
+
+// Usage: One object is initialized using other objects.

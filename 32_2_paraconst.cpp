@@ -23,3 +23,11 @@ int main() {
     s1.show();
     return 0;
 }
+// 2. Parameterized Constructor
+// Call: Automatically called when an object is created.
+
+// Arguments: It takes arguments.
+
+// Initialization: Initializes the object data members with user-given values.
+
+// Requirement: You must pass arguments while creating objects for this constructor.
