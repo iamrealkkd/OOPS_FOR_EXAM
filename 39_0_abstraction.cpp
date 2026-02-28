@@ -22,3 +22,17 @@ int main() {
 
     return 0;
 }
+// =======================================
+// Abstraction in C++
+// =======================================
+//
+// - Abstraction means hiding internal implementation
+//   details and showing only essential features.
+//
+// - It helps reduce complexity by focusing only
+//   on important information.
+//
+// - It is achieved using abstract classes
+//   and pure virtual functions in C++.
+//
+// =======================================

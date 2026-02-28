@@ -19,3 +19,54 @@ int main() {
     
     return 0;
 }
+// =======================================
+// Polymorphism in C++
+// =======================================
+//
+// Definition:
+// - Polymorphism means "many forms".
+//
+// Application:
+// - It can be applied to functions and operators.
+//
+// Functionality:
+// - A single function name can work differently
+//   in different situations.
+//
+// Types of Polymorphism:
+//
+//                Polymorphism
+//                       |
+//           __________________________
+//          |                          |
+//   Compile Time               Runtime Polymorphism
+//   Polymorphism                        |
+//          |                     Function Overriding
+//     _____|_____
+//    |           |
+// Function     Operator
+// Overloading  Overloading
+//
+// =======================================
+// =======================================
+// Compile-Time Polymorphism in C++
+// =======================================
+//
+// Definition:
+// - Compile-time polymorphism is a type of polymorphism
+//   where the function call is decided at compile time.
+//
+// Other Names:
+// - It is also called Early Binding.
+// - It is also known as Static Polymorphism.
+//
+// Achievement:
+// - It is achieved using:
+//     1. Function Overloading
+//     2. Operator Overloading
+//
+// Meaning:
+// - The compiler decides which function to call
+//   before the program runs.
+//
+// =======================================

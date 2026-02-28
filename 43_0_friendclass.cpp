@@ -1,24 +1,21 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class Student{
+
+class X{
     private:
-    int pincode;
-    public:
-    Student(int p){
-        pincode = p;
-    }
-    friend class Pincheck;
+    int a = 5;
+    friend class Y;
 };
-class Pincheck{
+class Y{
     public:
-    void showPin(Student s1){
-        cout << s1.pincode;
+    void show(X obj){
+        cout << obj.a << endl;
     }
 };
 int main(){
-    Student s1(832101);
-    Pincheck obj;
-    obj.showPin(s1);
+    X obj1;
+    Y obj2;
+    obj2.show(obj1);
     return 0;
 }
 // ===============================

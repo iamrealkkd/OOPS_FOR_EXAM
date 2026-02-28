@@ -1,22 +1,17 @@
 #include<iostream>
 using namespace std;
-class Student{
-    private:
-    int pincode;
+class X{
+    private :
+    int a = 5;
     public:
-    Student(int p){
-        pincode = p;
-    }
-    friend void showPin(Student s1);
+    friend void show(X obj);
 };
-
-    void showPin(Student s1){
-        cout << s1.pincode;
-    }
-
+void show(X obj){
+    cout << obj.a << endl;
+}
 int main(){
-    Student s1(832101);
-    showPin(s1);
+    X obj1;
+    show(obj1);
     return 0;
 }
 // ===============================

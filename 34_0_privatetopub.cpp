@@ -12,10 +12,6 @@ public:
         return age;
     }
 };
-
-
-
-
 int main() {
     Student s1;
     s1.setAge(20);

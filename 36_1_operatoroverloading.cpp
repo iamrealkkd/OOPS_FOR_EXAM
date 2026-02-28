@@ -41,3 +41,24 @@ int main() {
 
     return 0;
 }
+// =======================================
+// Operator Overloading in C++
+// =======================================
+//
+// Definition:
+// - C++ has the ability to provide operators
+//   with special meanings for particular data types.
+//
+// Ability:
+// - This ability is called Operator Overloading.
+//
+// Example:
+// - The addition operator (+) can be used:
+//     * To add two integers.
+//     * To concatenate two strings.
+//
+// Meaning:
+// - The same operator behaves differently
+//   depending on the data type.
+//
+// =======================================
